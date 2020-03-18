@@ -1,18 +1,16 @@
 <template>
   <div class="home">
-    <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-    <Menu msg="WODeasy" />
+    <NewItem msg="+" />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Menu from "@/components/Menu.vue";
+import NewItem from "@/components/NewItem.vue";
 
 export default {
   name: "Home",
   components: {
-    Menu
+    NewItem
   }
 };
 </script>
