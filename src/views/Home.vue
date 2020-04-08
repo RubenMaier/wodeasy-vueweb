@@ -1,8 +1,7 @@
 <template>
-  <div class="home">
-    <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
+  <v-container>
     <Menu msg="WODeasy" />
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -16,5 +15,3 @@ export default {
   }
 };
 </script>
-
-<style scoped lang="less"></style>

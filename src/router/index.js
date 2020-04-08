@@ -11,10 +11,16 @@ const routes = [
     component: Home
   },
   {
-    path: "/routine",
-    name: "Routine",
+    path: "/editroutine",
+    name: "EditRutine",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Routine.vue")
+      import(/* webpackChunkName: "about" */ "../views/EditRoutine.vue")
+  },
+  {
+    path: "/routines",
+    name: "Routines",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Routines.vue")
   },
   {
     path: "/converter",
